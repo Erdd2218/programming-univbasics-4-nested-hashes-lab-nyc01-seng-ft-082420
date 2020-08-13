@@ -114,7 +114,9 @@ def changing_alan
       }
     }
 programmer_hash = {
-  alans_new_info = :alan_kay[:known_for] 
+   :alan_kay[:known_for] = alans_new_info
+   
+   programmer_hash
 }
 end
 
